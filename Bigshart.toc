@@ -1,6 +1,7 @@
 ## Interface: 90002
 ## Title: Bigshart
 ## Author: BANDWICHES
+## Notes: https://bigshart.com/
 ## Version: 1.0.0
 
 main.lua

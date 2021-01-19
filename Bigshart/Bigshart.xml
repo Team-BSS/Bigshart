@@ -1,9 +1,11 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\..\FrameXML\UI.xsd">   
 <Script File="bootstrap.lua"/>
-<Frame name="BigshartFrame" parent="UIParent">
+
+<Frame name="Bigshart" parent="UIParent">
     <Scripts>
-        <OnLoad function="Bigshart_Bootstrap"></OnLoad>
-        <OnEvent function="Bigshart_Listener"></OnEvent>
+        <OnLoad function="_bootstrap"></OnLoad>
+        <OnEvent function="_listener"></OnEvent>
     </Scripts>
 </Frame>
+
 </Ui>

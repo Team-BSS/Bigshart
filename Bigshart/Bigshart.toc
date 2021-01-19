@@ -1,9 +1,22 @@
 ## Interface: 90002
+
 ## Title: Bigshart
-## Author: BANDWICHES
 ## Notes: https://bigshart.com/
 ## Version: 1.2.1
 
+## Author: BANDWICHES
+## X-EMAIL: bigshart@bigshart.com
+
+## SavedVariables: BigshartDB
+## OptionalDeps: LibDBIcon-1.0
+
+## App Factory ##
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+
+## Bigshart ##
 bootstrap.lua
+Biglogger.lua
 Bigshart.lua
 Bigshart.xml
